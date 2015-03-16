@@ -1,0 +1,59 @@
+.wrapper {
+  margin:0 auto;
+  width:1100px;
+}
+.upmenu {
+upground: url('nash football 3.jpg');
+heigh:342px;
+width:420px;
+}
+body {
+	background:url('1234.jpg');
+	color: #555555;
+	text-align: justify;
+	min-width: 300px;
+}
+#photo {
+	float: left;
+	margin-bottom: 15px;
+	width: 100%;
+}
+@media screen and (max-width: 680px) {
+	#goTo {
+		display: block;
+	}
+
+	header nav, #main, aside {
+		float: left;
+		clear: left;
+		margin: 0 0 15px; 
+		width: 100%;
+	}
+	header nav ul {
+		margin: 0px;
+	}
+	header nav li {
+		margin: 0;
+		background: #ccc;
+		display: block;
+		margin-bottom: 3px;
+	}
+	header nav a {
+		display: block;
+		padding: 10px;
+		text-align: center;
+	}
+	header h1 {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	
+	p {
+		font-size: 1.1em;
+	}
+	aside {
+		font-size: 1.1em;
+	}
+	#photo {display:none;}
+}
